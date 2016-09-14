@@ -77,10 +77,23 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
+											{image : 'img/slider-images/gold080.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold205.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold012.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold005B.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold008.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold144.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold123.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold134.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold176.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold192.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold162.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold169B.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold206.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold167.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold211B.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold218.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''},
+											{image : 'img/slider-images/gold302C.jpg', title : '<div class="slide-content">AllenAdell</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
@@ -195,7 +208,7 @@ BRUSHED.contactForm = function(){
 		
 		$.ajax({
 			type: "POST",
-			url: "_include/php/contact.php",
+			url: "php/contact.php",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
@@ -222,7 +235,7 @@ BRUSHED.tweetFeed = function(){
 	var valueTop = -64; // Margin Top Value
 	
     $("#ticker").tweet({
-          modpath: '_include/js/twitter/',
+          modpath: 'js/twitter/',
           username: "Bluxart", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
@@ -405,7 +418,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '_include/js/placeholder.js', 
+		nope: 'js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
