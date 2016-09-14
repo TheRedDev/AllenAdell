@@ -126,7 +126,6 @@
                 <li><a href="#{{ post.anchor }}">{{ post.menu-name }}</a></li>
     {% endif %}
 {% endfor %}
-                <li><a href="shortcodes.html" class="external">Shortcodes</a></li>
             </ul>
         </nav>
         
@@ -136,7 +135,7 @@
 
 {% for post in site.posts %}
     {% include section_header.html title=post.title anchor=post.anchor class=post.class %}
-        {% if post.menu-name %}
+        {% if post.description %}
             {% include section_title_card.html title=post.title description=post.description %}
         {% endif %}
         {% include section_content_start.html title=post.title %}
