@@ -1,0 +1,24 @@
+---
+---
+<!-- {{ page.title }} Section -->
+<div id="{{ post.anchor }}" class="{{ post.class }}">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">{{ post.title }}</h2>
+                    <h3 class="title-description">{{ post.description }}</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- {{ page.title }} -->
+        <div class="row">
+            {{ post.content }}
+        </div>
+        <!-- End {{ page.title }} -->
+    </div>
+</div>
+<!-- End {{ page.title }} Section -->

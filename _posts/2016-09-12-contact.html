@@ -1,0 +1,55 @@
+---
+class: page
+anchor: contact
+title: Contact Us
+menu-name: Contact
+description: We’re currently accepting new client projects. We look forward to serving you.
+---
+        	<!--div class="span9">
+            
+            	<form id="contact-form" class="contact-form" action="#">
+                	<p class="contact-name">
+                		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                    </p>
+                    <p class="contact-email">
+                    	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                    </p>
+                    <p class="contact-message">
+                    	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                    </p>
+                    <p class="contact-submit">
+                    	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                    </p>
+                    
+                    <div id="response">
+                    
+                    </div>
+                </form>
+             
+            </div-->
+            
+            <div class="span6">
+            	<div class="contact-details">
+            		<h3>Contact Details</h3>
+                    <ul>
+                        <li>
+                            {{ business }}<br/>
+                            {{ site.streetnum }} {{ site.streetname}} {{ site.suitenum}}<br/>
+                            {{ site.city }}, {{ site.state }} {{ site.zip }}<br/>
+                            {{ site.country }}
+                        </li>
+                        <li><a href="tel:{{ site.phone | slugify }}">{{ site.phone }}</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="span6">
+            	<div class="contact-details">
+            		<ul>
+                        <li>Submit Resume: <a href="mailto:{{ site.resume-email }}">{{ site.resume-email }}</a></li>
+                        <li>Request Information: <a href="mailto:{{ site.info-email }}">{{ site.info-email }}</a></li>
+                        <br/>
+                        <li>Download information as a <a href="{{ site.vcard-url }}">vCard</a></li>
+                    </ul>
+                </div>
+            </div>

@@ -25,7 +25,7 @@ html, hmtl a{
 
 body{
 	background:#2F3238;
-	color:#7F8289;
+	color:#cfd0d3;
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
@@ -970,7 +970,7 @@ nav#menu #menu-nav li a:hover {
 
 #contact-form .submit {
     background: #3C3F45;
-    color: #23262C;
+    color: #7F8289;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -1088,7 +1088,7 @@ nav#menu #menu-nav li a:hover {
 #social ul li a span {
 	display: inline-block;
 	margin: 0;
-	color: #55606a;
+	color: #7F8289;
 	font-size: 32px;
 	line-height: 70px;
 	
