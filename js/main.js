@@ -1,5 +1,15 @@
 jQuery(function($){
 
+var controller = new ScrollMagic.Controller();
+
+var tween = TweenMax.to("#logo", 1, {className: "+=shrunk"});
+
+new ScrollMagic.Scene({
+	triggerElement: "#nav",
+	triggerHook: 'onEnter',
+	duration: '600'
+}).setTween(tween).addTo(controller);
+
 var BRUSHED = window.BRUSHED || {};
 
 /* ==================================================
