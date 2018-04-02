@@ -97,6 +97,10 @@
 		float: right;
 	}
 	
+	#navigation-mobile {
+		top: 22px;
+	}
+	
 	#menu-nav-mobile {
 		margin-left: -20px;
 		margin-right: -20px;
@@ -237,7 +241,7 @@
 	}
 	
 	header .sticky-nav.stuck #logo {
-		margin-left: 20px;	
+		/* margin-left: 20px; */
 	}
 	
 	header .sticky-nav #menu {
@@ -255,6 +259,10 @@
 	#mobile-nav {
     	display: block;
 		float: right;
+	}
+	
+	#navigation-mobile {
+		top: 22px;
 	}
 	
 	#menu-nav-mobile {
@@ -389,7 +397,7 @@
 
 /* Retina Display */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2),
  	only screen and (-moz-min-device-pixel-ratio: 2),
   	only screen and (-o-min-device-pixel-ratio: 2/1),
   	only screen and (min-device-pixel-ratio: 2),
@@ -410,5 +418,5 @@
 			background-size: 16px 16px;
 		}
 	}
-
+*/
 

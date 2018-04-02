@@ -502,29 +502,38 @@ header .sticky-nav.stuck {
 
 header #logo {
 	top: 50%;
-	margin: -110px 0 0 -351px;
 	position: fixed;
 	left: 50%;
 	background: url(../img/logo_@fullsize.png) no-repeat;
-	background-size: 702px 144px;
+	background-size: 100%;
 	background-position-y: 5px;
 	width: 702px;
 	height: 144px;
-	opacity: 1;
-	filter: alpha(opacity=100);
-	-webkit-transition: opacity 0.25s ease-in-out 0s;
-	   -moz-transition: opacity 0.25s ease-in-out 0s;
-	     -o-transition: opacity 0.25s ease-in-out 0s;
-	        transition: opacity 0.25s ease-in-out 0s;
+	max-width: 80%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	/* opacity: 1; */
+	/* filter: alpha(opacity=100); */
+	/* -webkit-transition: opacity 0.25s ease-in-out 0s; */
+	/*   -moz-transition: opacity 0.25s ease-in-out 0s; */
+	/*     -o-transition: opacity 0.25s ease-in-out 0s; */
+	/*        transition: opacity 0.25s ease-in-out 0s; */
 }
 
 header #logo.shrunk {
 	margin: 0 0 0 0;
 	top: 5px;
 	left: 5px;
-	background-size: 243px 50px;
 	width: 243px;
 	height: 50px;
+	-webkit-transform: translate(0, 0);
+	   -moz-transform: translate(0, 0);
+	    -ms-transform: translate(0, 0);
+	     -o-transform: translate(0, 0);
+	        transform: translate(0, 0);
 }
 
 header #logo a {

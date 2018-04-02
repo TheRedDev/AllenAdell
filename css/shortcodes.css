@@ -86,7 +86,7 @@
 .accordion-heading .accordion-toggle {
 	position: relative;
   	display: block;
-  	padding: 15px;
+  	padding: 15px 40px 15px 15px;
 	background:#3C3F45;
 	color: #CCCCCC;
 	font-size: 18px;
