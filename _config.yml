@@ -3,15 +3,15 @@
 title: Allen Adell, Inc - National Healthcare Executive Search Firm # Title of your site
 resume-email: resume@allenadell.com
 info-email: info@allenadell.com
-vcard-url: 
+vcard-url: charleshaines.vcf
 phone: 1 (813) 920-8900
 business: Allen Adell Executive Search & Consulting
-streetnum: 7853
-streetname: Gunn Highway
-suitenum: '#260'
-city: Tampa
+streetnum: 8815
+streetname: Conroy Windermere Road
+suitenum: '#303'
+city: Orlando
 state: FL
-zip: 33626-1611
+zip: 32835-3129
 country: United States
 
 
@@ -23,7 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
   marketing, financial, clinical and professional services. We have successfully completed 
   hundreds of searches throughout the United States.
 baseurl: "/AllenAdell/" # the subpath of your site, e.g. /blog/
-url: "https://massugugo.github.io" # the base hostname & protocol for your site
+url: "https://thereddev.github.io" # the base hostname & protocol for your site
 
 google-analytics-code: # google analytics tracking code
 linkedin-name: charleshaines # linked in name
