@@ -5,9 +5,14 @@ var controller = new ScrollMagic.Controller();
 var tween = TweenMax.to("#logo", 1, {className: "+=shrunk"});
 
 new ScrollMagic.Scene({
-	triggerElement: "#nav",
+	triggerElement: "#navEnd",
+	offset: '-60px',
+	ease: Sine,
 	duration: '50%'
-}).setTween(tween).addTo(controller);
+})
+.setTween(tween)
+//.addIndicators({name : "logo (duration: 50%)"})
+.addTo(controller);
 
 var BRUSHED = window.BRUSHED || {};
 
