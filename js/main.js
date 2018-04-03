@@ -215,7 +215,7 @@ BRUSHED.fancyBox = function(){
 ================================================== */
 
 BRUSHED.contactForm = function(){
-	$("#contact-submit").on('click',function() {
+	$("#contact-submit").on('click', function() {
 		$contact_form = $('#contact-form');
 		
 		var fields = $contact_form.serialize();
@@ -286,6 +286,11 @@ BRUSHED.menu = function(){
     	scrollThreshold: 0.5,
 		easing: 'easeOutExpo',
 		filter: ':not(.external)'
+	});
+	$('#mobile-nav').on('click', function() {
+		if(!$("#nav").hasClass("stuck")) {
+			$("#nextsection").click();
+		}
 	});
 }
 
