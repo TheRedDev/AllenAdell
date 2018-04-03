@@ -22,8 +22,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Our functional areas of specialization include C-suite, sales, business development, 
   marketing, financial, clinical and professional services. We have successfully completed 
   hundreds of searches throughout the United States.
-baseurl: "/AllenAdell/" # the subpath of your site, e.g. /blog/
-url: "https://thereddev.github.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://allenadell.com" # the base hostname & protocol for your site
 
 google-analytics-code: # google analytics tracking code
 linkedin-name: charleshaines # linked in name
