@@ -433,16 +433,16 @@ $(document).ready(function(){
 	{
 		test: Modernizr.placeholder,
 		nope: 'js/placeholder.js', 
-		complete : function() {
+		/*complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
-						live: true,
-						hideOnFocus: false,
-						className: "yourClass",
-						textColor: "#999"
-						});    
+							live: true,
+							hideOnFocus: false,
+							className: "yourClass",
+							textColor: "#999"
+						});
 				}
-		}
+		}*/
 	}
 	]);
 	
